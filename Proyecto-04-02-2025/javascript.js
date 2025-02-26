@@ -3,16 +3,20 @@ TIPOS DE DATOS DE JAVASCRIPT
 */
 
 // Tipo: Number (Número)
-var edad = 25
+var edad = 42
 var precio = 100.50
 var puntos = 0
 var temperatura = -19
+var numeroNegativo = -666
 
 // Tipo: String (Texto)
 var nombre = "Valery" // Con comillas dobles
 var saludo = 'Hola, ¿Como estas?' // Con comillas simples
 var character = "a"
 var edadCadena = "25"
+var numeroEscrito = 'Veinticinco'
+var comillaDoble = '"'
+var falsoEscrito = "FALSE"
 
 // Tipo: Boolean (Booleano)
 var esMayor = true // Verdadero
@@ -55,3 +59,12 @@ Es útil para depuración y validaciones de código.
 
 console.log(typeof edad)
 console.log(typeof edadCadena)
+console.log(typeof 42)
+console.log(typeof 'Veinticinco')
+console.log(typeof -666)
+console.log(true)
+console.log(typeof 0)
+console.log('"')
+console.log(null)
+console.log(undefined)
+console.log("FALSE")
