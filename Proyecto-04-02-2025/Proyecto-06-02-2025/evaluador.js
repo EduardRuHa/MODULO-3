@@ -1,5 +1,5 @@
 // Se le da valor a la variable nota y asignamos un valor numérico (se puede cambiar por cualquier valor entre 0 y 100)
-let nota = 85;  // Se puede cambiar este valor para probar diferentes resultados
+let nota = 92;  // Se puede cambiar este valor para probar diferentes resultados
 
 // Evaluamos el valor de la nota usando estructuras de control if, else if y else
 if (nota >= 90) {

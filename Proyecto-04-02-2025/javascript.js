@@ -48,17 +48,12 @@ console.log se usa para mostrar valores en la consola del navegador.
 Es útil para depurar y entender como funcionan las variables en el código.
 */
 
-console.log(edad)
-console.log(nombre)
-
 /*
 ¿Qué es typeof?
 typeof nos permite conocer el tipo de dato de una variable.
 Es útil para depuración y validaciones de código.
 */
 
-console.log(typeof edad)
-console.log(typeof edadCadena)
 console.log(typeof 42)
 console.log(typeof 'Veinticinco')
 console.log(typeof -666)
