@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contraseñas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #111010;
+        }
+        .container {
+            background: rgb(51, 47, 47);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.11);
+            text-align: center;
+        }
+        input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        button {
+            padding: 10px 15px;
+            border: none;
+            background-color: #58ad55;
+            color: black;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #58ad55;
+        }
+        .strength {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Generador de Contraseñas</h2>     
+        <input type="text" id="password" readonly>
+        <button onclick="generatePassword()">Generar</button>
+        <button onclick="copyToClipboard()">Copiar</button>
+        <p class="strength" id="strength"></p>
+    </div>
+<script src="generadorPasswords.js"></script>
+</body>
+</html>
